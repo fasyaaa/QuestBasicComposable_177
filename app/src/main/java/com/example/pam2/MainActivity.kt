@@ -88,7 +88,8 @@ fun BasicCompose(adifa: Modifier = Modifier){
         Text(text = "Muhammad Adifa Firmansyah",
             style = TextStyle(
                 fontSize = 15.sp,
-                color = Color.Red
+                color = Color.Red,
+                fontWeight = FontWeight.SemiBold
             )
         )
     }
