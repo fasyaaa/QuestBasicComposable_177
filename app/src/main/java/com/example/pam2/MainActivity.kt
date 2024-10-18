@@ -92,6 +92,9 @@ fun BasicCompose(adifa: Modifier = Modifier){
                 fontWeight = FontWeight.SemiBold
             )
         )
+
+//        Menambahkan karakter NIM "20220140177"
+        Text(text = "20220140177")
     }
 
 }
