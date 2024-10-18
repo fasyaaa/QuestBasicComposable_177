@@ -79,7 +79,8 @@ fun BasicCompose(adifa: Modifier = Modifier){
         Text(text = "Nama",
             style = TextStyle(
                 fontSize = 15.sp,
-                color = Color.Gray
+                color = Color.Gray,
+                fontWeight = FontWeight.Bold
             )
             )
     }
