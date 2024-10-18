@@ -94,7 +94,11 @@ fun BasicCompose(adifa: Modifier = Modifier){
         )
 
 //        Menambahkan karakter NIM "20220140177"
-        Text(text = "20220140177")
+        Text(text = "20220140177",
+            style = TextStyle(
+                fontSize = 35.sp
+            )
+            )
     }
 
 }
