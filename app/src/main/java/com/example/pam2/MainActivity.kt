@@ -74,6 +74,9 @@ fun BasicCompose(adifa: Modifier = Modifier){
         Image(painter = painterResource(id = R.drawable.pipa),
             contentDescription = null,
             modifier = adifa.size(200.dp))
+
+//        Menambahkan karakter "nama"
+        Text(text = "Nama")
     }
 
 }
