@@ -78,14 +78,18 @@ fun BasicCompose(adifa: Modifier = Modifier){
 //        Menambahkan karakter "nama"
         Text(text = "Nama",
             style = TextStyle(
-                fontSize = 15.sp,
+                fontSize = 20.sp,
                 color = Color.Gray,
                 fontWeight = FontWeight.Bold
                 )
             )
 
 //        Menambahkan karakter nama "Muhammad Adifa Firmansyah
-        Text(text = "Muhammad Adifa Firmansyah")
+        Text(text = "Muhammad Adifa Firmansyah",
+            style = TextStyle(
+                fontSize = 15.sp,
+            )
+        )
     }
 
 }
