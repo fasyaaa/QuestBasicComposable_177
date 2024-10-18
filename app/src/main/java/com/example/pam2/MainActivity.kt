@@ -102,6 +102,9 @@ fun BasicCompose(adifa: Modifier = Modifier){
             )
 
 //        Menambahkan Foto
+        Image(painter = painterResource(id = R.drawable.my_picture),
+            contentDescription = null,
+        )
     }
 
 }
