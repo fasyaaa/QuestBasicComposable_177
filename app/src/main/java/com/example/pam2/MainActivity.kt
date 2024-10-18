@@ -98,8 +98,10 @@ fun BasicCompose(adifa: Modifier = Modifier){
             style = TextStyle(
                 fontSize = 35.sp,
                 fontWeight = FontWeight.ExtraBold
+               )
             )
-            )
+
+//        Menambahkan Foto
     }
 
 }
