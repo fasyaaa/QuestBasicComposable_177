@@ -76,7 +76,11 @@ fun BasicCompose(adifa: Modifier = Modifier){
             modifier = adifa.size(200.dp))
 
 //        Menambahkan karakter "nama"
-        Text(text = "Nama")
+        Text(text = "Nama",
+            style = TextStyle(
+                fontSize = 50.sp
+            )
+            )
     }
 
 }
