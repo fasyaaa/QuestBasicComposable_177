@@ -111,9 +111,8 @@ fun BasicCompose(adifa: Modifier = Modifier){
         Image(painter = painterResource(id = R.drawable.my_picture),
             contentDescription = null,
             modifier = adifa.size(200.dp,400.dp).clip(RoundedCornerShape(120.dp))
-        )
+            )
     }
-
 }
 
 @Composable
